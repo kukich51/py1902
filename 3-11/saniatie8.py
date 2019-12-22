@@ -1,0 +1,5 @@
+number =int(input("enter the number "))
+sum = (number // 10000) + (number // 10 // 10 //10 % 10) + (number // 10 // 10 % 10) + (number // 10 % 10) + (number % 10)
+mul = (number // 10000) * (number // 10 // 10 //10 % 10) * (number // 10 // 10 % 10) * (number // 10 % 10) * (number % 10)
+print (sum)
+print (mul)
